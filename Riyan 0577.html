@@ -1,0 +1,167 @@
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<h1 style="text-align: left">Personal Information</h1>
+<form name="RegForm" action="/submit.php" onsubmit="return Riyaan()" method="post">
+
+    <form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+  <label>
+  <span>Date of birth</span>
+  <span><input type="date" id="dob" placeholder="Date of Birth" /></span>
+<span class="errorMsg error">Please enter your DOB</span>
+</label>
+<p>Gender
+        <select type="text" value="" name="Subject">
+            <option>MALE</option>
+            <option>FEMALE</option>
+</select></p><br><br>
+<h1 style"text-align: left">Account Information</h1>
+<form name="RegForm1" action="/submit.php" onsubmit="return Riyaan1()" method="post">
+    <p></p></p>
+<p></p>
+
+Email: <input type="email" value="" id="myInput"><br><br>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "email") {
+        x.type = "text";
+    } else {
+        x.type = "email";
+    }
+}
+</script>
+<p></p>
+
+Re-type Email: <input type="email" value="" id="myInput"><br><br>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "email") {
+        x.type = "text";
+    } else {
+        x.type = "email";
+    }
+}
+</script>
+
+       <p></p>
+
+Password: <input type="password" value="" id="myInput"><br><br>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+<p></p>
+
+Retype-Password: <input type="password" value="" id="myInput"><br><br>
+<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+
+<p>Security Question
+        <select type="text" value="" name="Subject">
+            <option>Your Favourite Pet name</option>
+            <option>Where did your Mother and Father Meet</option>
+            			<option>Favourite Hobby</option>
+            <option>Favourite Book</option>
+</select></p><br><br>
+</p><label><span>Security Answer</span>
+                                    <span><input type="security" id="answer" placeholder="" /></span>
+                                    <span class="errorMsg error">(Not Case Sensitive)</span>
+                                </label>
+                                </p>
+<h1 style="text-align: left">Contact Information</h1>
+<form name="RegForm2" action="/submit.php" onsubmit="return Riyaan2()" method="post">
+</p>  <label>
+                                    <span>Address</span>
+                                    <span><textarea col="10" rows="2"></textarea></span>
+                                    <span class="errorMsg error">Please enter your address</span>
+                                </label>
+                            </p>
+</p>  <label>
+                                    <span>City</span> <span><textarea col="0" rows="1"></textarea></span>
+                                    <span class="errorMsg error">Please enter your city</span>
+                                </label>
+                            </p>
+<p>State
+        <select type="text" value="" name="Subject">
+            <option></option>
+            <option>Andhra Pradhesh</option>
+            <option>Arunachal Pradhesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chattisgath</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Hariyana</option>
+            <option>Himachal Pradhesh</option>
+            	<option>Misoram</option>
+            <option>Jammu & Kashmir</option>
+            <option>Jharkhand</option>
+            	<option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradhesh</option>
+            	<option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            	<option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Tripura</option>
+            <option>Telangana</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+</select></p><br><br>
+</p><label><span>Zip Code</span>
+                                    <span><input type="zip" code="answer" placeholder="" /></span>
+                                    <span class="errorMsg error">Optional</span>
+                                </label>
+                                </p>
+
+<div class="grid">
+                            <p class="col-6-12">
+                                <label>
+                                    <span>Phone</span>
+                                    <span><input type="email" id="phone"  /></span>
+                                    <span class="errorMsg error">No spaces or Dashes</span>
+                                </label>
+                            </p>
+                            <p class="col-6-12">
+                                <label>
+                                    <span>Mobile</span>
+                                    <span><input type="email" id="mobile"  /></span>
+
+                                </label>
+                            </p>
+                        </div>
+                        </form>
+
+                                <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="Reset">Reset</button>
+    </body>
