@@ -1,0 +1,120 @@
+<body>
+<h1 style="text-align: left">Personal Information</h1>
+<form name="RegForm" action="/submit.php" onsubmit="return Riyaan()" method="post">
+
+	<p>First Name: <input type="text" size=16 name="Name"> </p><br>
+	<p> Last Name: <input type="text" size=16 name="Address"> </p><br>
+
+						  <label>
+									<span>Date of birth</span>
+									<span><input type="date" id="dob" placeholder="Date of Birth" /></span>
+									<span class="errorMsg error">Please enter your DOB</span>
+								</label>
+<p>Gender
+		<select type="text" value="" name="Subject">
+			<option>MALE</option>
+			<option>FEMALE</option>
+</select></p><br><br>
+<h2 style="text-align: left">Account Information</h2>
+<form name="RegForm1" action="/submit.php" onsubmit="return Riyaan1()" method="post">
+
+</p><label>
+									<span>Email</span>
+									<span><input type="email" id="email" placeholder="" /></span>
+									<span class="errorMsg error">Your email address will be your user name</span>
+								</label>
+                                </p>
+
+         </p> <label>
+									<span>Re-type Email</span>
+									<span><input type="email" id="email" placeholder="" /></span>
+									<span class="errorMsg error">.</span>
+								</label>
+                                          </p>
+                                           </p><label>
+									<span>Password</span>
+									<span><input type="password" id="password" placeholder="" /></span>
+									<span class="errorMsg error"></span>
+								</label>
+                                </p>
+ </p> <label>
+									<span>Re-type Password</span>
+									<span><input type="password" id="password" placeholder="" /></span>
+									<span class="errorMsg error">.</span>
+								</label>
+                                          </p>
+<p>Security Question
+		<select type="text" value="" name="Subject">
+			<option>Your Favourite Pet name</option>
+			<option>Where did your Mother and Father Meet</option>
+            			<option>Favourite Hobby</option>
+			<option>Favourite Book</option>
+</select></p><br><br>
+</p><label><span>Security Answer</span>
+									<span><input type="security" id="answer" placeholder="" /></span>
+									<span class="errorMsg error">(Not Case Sensitive)</span>
+								</label>
+                                </p>
+<h3 style="text-align: left">Contact Information</h2>
+<form name="RegForm2" action="/submit.php" onsubmit="return Riyaan2()" method="post">
+</p>  <label>
+									<span>Address</span>
+									<span><textarea col="10" rows="2"></textarea></span>
+									<span class="errorMsg error">Please enter your address</span>
+								</label>
+							</p>
+</p>  <label>
+									<span>City</span>
+									<span><textarea col="10" rows="2"></textarea></span>
+									<span class="errorMsg error">Please enter your city</span>
+								</label>
+							</p>
+<p>State
+		<select type="text" value="" name="Subject">
+			<option></option>
+			<option>Andhra Pradhesh</option>
+            <option>Arunachal Pradhesh</option>
+            <option>Assam</option>
+			<option>Bihar</option>
+            <option>Chattisgath</option>
+            <option>Goa</option>
+			<option>Gujarat</option>
+            <option>Hariyana</option>
+			<option>Himachal Pradhesh</option>
+            	<option>Misoram</option>
+			<option>Jammu & Kashmir</option>
+            <option>Jharkhand</option>
+            	<option>Karnataka</option>
+			<option>Kerala</option>
+            <option>Madhya Pradhesh</option>
+            	<option>Maharashtra</option>
+			<option>Manipur</option>
+            <option>Meghalaya</option>
+            	<option>Nagaland</option>
+			<option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Tripura</option>
+            <option>Telangana</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+</select></p><br><br>
+</p><label><span>Zip Code</span>
+									<span><input type="zip" code="answer" placeholder="" /></span>
+									<span class="errorMsg error">Optional</span>
+								</label>
+                                </p>
+     <p>Phone: <input type="number" size=16 > </p><br>
+     	<p>
+								<label>
+									<span>Mobile</span>
+									<span><input type="number"code="mobile" placeholder=""/></span>									<span class="errorMsg error">Mobile number should be 10 digits numbers only</span>
+								</label>
+							</p>
+                                <button type="submit" value="Submit">Submit</button>
+    <button type="reset" value="Reset">Reset</button>
+</form>
+</body>
